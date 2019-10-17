@@ -9,8 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 @Getter
 @Setter
-//employee will be the name of table in mongodb
-@Document(collection = "persons")
+@Document(collection = "people")
 public class Person {
 
   @Id
